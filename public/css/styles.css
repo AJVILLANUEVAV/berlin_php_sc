@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header img {
+    height: 53px; /* Tamaño ajustado para agrandar el logo en 3px */
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.navbar-custom a.btn-danger {
+    background-color: #2b0bcc;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.navbar-custom a.btn-danger:hover {
+    background-color: #340ec9;
+    text-decoration: none;
+}
+
+.navbar-custom {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-custom a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-custom a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-custom {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #c82333;
+}
